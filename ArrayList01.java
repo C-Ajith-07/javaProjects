@@ -23,7 +23,7 @@ public class ArrayList01<T>{
 	private T[] list = (T[]) new Object[size]; 
 	public void add(T value) {
 		if(size ==  count) {
-			size += size/2;
+			size += 2;
 			list=Arrays.copyOf(list, size);
 		}
 		list[count] = value;
