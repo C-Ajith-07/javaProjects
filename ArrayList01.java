@@ -137,6 +137,25 @@ public class ArrayList01<T>{
 		}
 		list[idx] = value;
 	}
+
+	public void replace(T oldValue,T newValue){
+		set(indexOf(oldValue),newValue);
+	}
+
+
+	public void swap(int i, int j) {
+		T temp = list[i];
+		list[i] = list[j];
+		list[j] = temp;
+	}
+
+	public void removeFirst() {
+		remove(1);
+	}
+	
+	public void removeLast() {
+		remove(count);
+	}
 	
 //	public <T extends Number> void sort() {
 //		for(int i=0; i<count; i++) {
