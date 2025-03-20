@@ -218,7 +218,7 @@ public class ArrayList01<T>{
 	}
 
 	public void removeFirst() {
-		remove(1);
+		remove(0);
 	}
 	
 	public void removeLast() {
