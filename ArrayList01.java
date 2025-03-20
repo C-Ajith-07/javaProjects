@@ -142,6 +142,12 @@ public class ArrayList01<T>{
 		set(indexOf(oldValue),newValue);
 	}
 
+	public void replaceAll(T oldValue, T newValue){
+		for(int i=0; i<count; i++){
+			set(indexOf(oldValue),newValue);
+		}
+	}
+
 
 	public void swap(int i, int j) {
 		T temp = list[i];
