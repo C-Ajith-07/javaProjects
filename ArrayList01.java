@@ -6,15 +6,15 @@ import java.util.Collection;
 
 //import java.util.Arrays;
 
-public class ArrayList01<T>{
+public class ArrayList<T>{
 
 	private int size=10;
-	public ArrayList01() {
+	public ArrayList() {
 		size = 10;
 	}
 	
 	
-	public ArrayList01(int size) {
+	public ArrayList(int size) {
 		// TODO Auto-generated constructor stub
 		this.size = size;
 	}
