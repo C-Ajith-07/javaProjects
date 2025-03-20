@@ -162,6 +162,13 @@ public class ArrayList01<T>{
 	public void removeLast() {
 		remove(count);
 	}
+
+	public void reverse(){
+		for(int i=cound; i>=0; i--){
+			System.out.println(list[i]);
+		}
+	}
+			
 	
 //	public <T extends Number> void sort() {
 //		for(int i=0; i<count; i++) {
