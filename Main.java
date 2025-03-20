@@ -1,15 +1,12 @@
 package project;
 import java.util.Scanner;
 
-//import java.util.Comparator;
-import java.util.ArrayList;
-
 public class Main {
 	public static void main(String[] args) {
 		Scanner getInput = new Scanner(System.in);
-		ArrayList01<String> arr = new ArrayList01<>();
+		ArrayList<String> arr = new ArrayList<>();
 		
-		ArrayList01<Integer> list = new ArrayList01<>();
+		ArrayList<Integer> list = new ArrayList<>();
 //		String ans="";
 //		int Option = 0;
 //		while(Option != 4) {
