@@ -164,7 +164,7 @@ public class ArrayList01<T>{
 	}
 
 	public void reverse(){
-		for(int i=cound; i>=0; i--){
+		for(int i=count; i>=0; i--){
 			System.out.println(list[i]);
 		}
 	}
