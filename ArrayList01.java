@@ -123,13 +123,6 @@ public class ArrayList01<T>{
 		return false;
 	}
 	
-	public int search(T value) {
-		if(contains(value)) {
-			return indexOf(value);
-		}
-		return -1;
-	}
-	
 	
 	public void set(int idx, T value) {
 		if(idx >= count) {
@@ -246,6 +239,13 @@ public class ArrayList01<T>{
 		list = Arrays.copyOf(list, size);
 		Arrays.sort(list);
 		list = Arrays.copyOf(list, oldSize);
+	}
+
+		public int search(T value) {
+		if(contains(value)) {
+			return indexOf(value);
+		}
+		return -1;
 	}
 	
 }
