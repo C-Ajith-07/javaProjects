@@ -203,13 +203,11 @@ public class ArrayList01<T>{
 		size = count;
 		list=Arrays.copyOf(list, size);
 	}
+
+
+	//
 	
-	
-	public T[] clone() {
-		return list;
-	}
-	
-		public void replace(T oldValue,T newValue){
+	public void replace(T oldValue,T newValue){
 		set(indexOf(oldValue),newValue);
 	}
 
