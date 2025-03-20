@@ -240,20 +240,7 @@ public class ArrayList01<T>{
 		}
 	}
 
-	public void sort(Comparator<? super T> comparator) {
-	    for (int i = 0; i < size - 1; i++) {
-            	for (int j = 0; j < size - i - 1; j++) {
-                    T current = (T) array[j];
-                    T next = (T) array[j + 1];
-                	if (comparator.compare(current, next) > 0) {
-                    	    array[j] = next;
-                    	    array[j + 1] = current;
-               	 	}
-            	}
-            }
-        }
-	
-	
+
 	
 	public void sort()
 	{
